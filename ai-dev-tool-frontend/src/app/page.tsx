@@ -1,7 +1,8 @@
 import React from 'react';
-import type { NextPage } from 'next';
-import Dashboard from '../project/dashboard';
+import Dashboard from '@/app/dashboard/page';
 
-export default function Home() {
+const HomePage = () => {
   return <Dashboard />;
-}
+};
+
+export default HomePage;
